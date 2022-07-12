@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://www.motortrend.com/uploads/sites/5/2021/07/2021-hyundai-accent-exterior-01.jpg?fit=around%7C875:492.1875);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
+
+ul{
+    float: right;
+    display: flex;
+     /* padding-bottom: 1rem;  */
+    /* padding-top: 2rem;
+    padding-right: 2rem; */
+     /* background-color: red;  */
+    
+}
+.Home{
+    padding-left: 9rem;
+}
+.About{
+    padding-left: 9rem;
+}
+.Buy{
+    padding-left: 9rem;
+}
+.Sell{
+    padding-left: 9rem;
+}
+/* .Sign-in{
+    padding-left:9rem;
+}
+.Sign-up{
+    padding-left: 9rem; */
+/* } */
+.Contact{
+    padding-left: 6rem;
+}
+.Car-content{
+    padding-top: 3rem;
+    float: right;
+    padding-left: 20rem;
+}
+.Perfect{
+    color: rgb(252, 173, 28);
+}
+.Car{
+    color: white;
+}
+.HANSFAHD{
+    color: white;
+}
+.Certified{
+    color: lightcyan;
+    padding-top: 14rem;
+}
+.Experience{
+    width: 27%;
+    color: whitesmoke;
+}
