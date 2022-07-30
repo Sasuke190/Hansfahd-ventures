@@ -1,0 +1,37 @@
+.Toyota{
+    display: flex;
+    flex-direction: row;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-left: 3rem;
+    
+    
+    
+}
+
+.Camry-brand{
+    margin: .8rem;
+    width: 210px;
+    background-color: white;
+    padding-left: 7px;
+}
+
+.Camry-brand:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.Camry-brand>img, .Camry-brand>h1{
+    width: 200px;
+    padding: 5px;
+}
+
+button{
+    margin-bottom: 1rem;
+}
+.Price{
+    color: cyan;
+}
+
+

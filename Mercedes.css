@@ -1,0 +1,31 @@
+.Mercedes{
+    
+    display:grid ;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 3px;
+    /* margin-left: 7rem; */
+    /* margin-left: 2rem; */
+    
+}
+.Mercedes-brand{
+    margin: 1rem;
+    width: 210px;
+    background-color: white;
+    padding-top: 1rem;
+}
+.Mercedes-brand:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.Mercedes-brand>img, .Mercedes-brand>h1{
+    width: 210px;
+    padding: 5px;
+}
+
+button{
+    margin-bottom: 1rem;
+}
+
+ 
+
+

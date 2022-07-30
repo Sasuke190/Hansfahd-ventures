@@ -1,60 +1,148 @@
-body{
+
+
+.Home{
     background-image: url(https://www.motortrend.com/uploads/sites/5/2021/07/2021-hyundai-accent-exterior-01.jpg?fit=around%7C875:492.1875);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 48rem;
+    margin: 0;
+    /* opacity: 0.8; */
+
 }
 
-  
+    /* li a{
+    padding-left: 4rem;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
 
+  nav{
+    display: flex;
+  }
+
+header{
+    background-color: rgba(165, 42, 42, 0.565);
+    height: 4.7rem;
+}
+
+.Logo{
+    width: 10%;
+    border: 2px solid salmon;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: white;
+    padding-top: 2rem;
+    text-align: center;
+} */
+.Pick{
+    color: tomato;
+    text-align: center;
+}
 ul{
     float: right;
     display: flex;
-     /* padding-bottom: 1rem;  */
-    /* padding-top: 2rem;
-    padding-right: 2rem; */
-     /* background-color: red;  */
+    list-style: none;
     
 }
-.Home{
-    padding-left: 9rem;
-}
-.About{
-    padding-left: 9rem;
-}
-.Buy{
-    padding-left: 9rem;
-}
-.Sell{
-    padding-left: 9rem;
-}
-/* .Sign-in{
-    padding-left:9rem;
-}
-.Sign-up{
-    padding-left: 9rem; */
-/* } */
+
 .Contact{
     padding-left: 6rem;
 }
+.home-content{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    font-size: 30px;
+} 
 .Car-content{
-    padding-top: 3rem;
-    float: right;
-    padding-left: 20rem;
+    padding-left: 1rem;
+    width: 50%;
+    margin-left: 5rem;
 }
-.Perfect{
-    color: rgb(252, 173, 28);
+.certified{
+    padding-left: 3rem;
+    width: 50%;
 }
 .Car{
-    color: white;
+    color: whitesmoke;
+    
+}
+h3{
+    color: orange;
 }
 .HANSFAHD{
     color: white;
 }
-.Certified{
-    color: lightcyan;
-    padding-top: 14rem;
+p{
+    color: aliceblue;
 }
-.Experience{
-    width: 27%;
-    color: whitesmoke;
+.certified{
+    color: wheat;
 }
+/* .Prices{
+    display: grid;
+    grid-column: auto;
+    
+} */
+
+.card-content{
+    border: 2px solid gray;
+    box-shadow: 2rem;
+    width: 20%;
+    background-color: white;
+    display: grid;
+    /* grid-template-columns: auto auto auto;
+     */
+}
+/* .Lexus-2007{
+    box-sizing: border-box;
+}
+.Lexus-2007 img{
+    width: 100%;
+}
+.Lexus-h3{
+    
+    color: aquamarine;
+}
+button{
+    margin-bottom: 0.4rem;
+}
+.Camry-2008 img{
+    width: 100%;
+} */
+
+/* .Toyota img{
+    width: 7%;
+    padding-left: 3rem;
+    padding-top: 2rem; */
+/* } */
+.Car-logo{
+display: flex;
+flex-direction: row;
+}
+/* .Toyota{
+    width: 10%;
+}
+.Kia{
+    width: 10%;
+}
+.Lexus{
+    width: 10%;
+} */
+.Options{
+    color: tomato;
+    padding-left: 20rem;
+}
+
+.logo-img{
+    background-color: rgba(0, 0, 0, 0.541);
+    padding-left: 8rem;
+}
+
+.logo-img img{
+    width: 100px;
+}
+
