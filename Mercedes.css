@@ -1,11 +1,11 @@
 .Mercedes{
     
     display:grid ;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto ;
     row-gap: 3px;
     /* margin-left: 7rem; */
     /* margin-left: 2rem; */
-    
+    margin-top: 7rem;
 }
 .Mercedes-brand{
     margin: 1rem;
@@ -24,6 +24,11 @@
 
 button{
     margin-bottom: 1rem;
+}
+.Mercedes-brand {
+    border: 5px solid goldenrod;
+    width: 250px;
+    padding-left: 1rem ;
 }
 
  
