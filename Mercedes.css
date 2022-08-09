@@ -21,6 +21,9 @@
     width: 210px;
     padding: 5px;
 }
+a{
+    text-decoration: none;
+}
 
 button{
     margin-bottom: 1rem;

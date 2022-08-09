@@ -25,5 +25,7 @@ button{
 .Price{
     color: cyan;
 }
-
+a{
+    text-decoration: none;
+}
 

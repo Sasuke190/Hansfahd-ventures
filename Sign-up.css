@@ -1,10 +1,9 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: url(./Login-images/banner-2156395_960_720.webp);
+    background: linear-gradient(to right, #f40559a9, #dba945);
     background-size: cover;
     position: absolute;
-    margin-top: 3rem;
 }
 
 .form-box{

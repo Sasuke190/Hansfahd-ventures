@@ -14,7 +14,7 @@
     padding-top: 1rem;
 }
 .Ford-brand:hover{
-    background-color: thistle;
+    background-color: olivedrab;
     cursor: pointer;
 }
 .Ford-brand>img, .Ford-brand>h1{
