@@ -1,14 +1,16 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 .Home{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 44rem;
+    height: auto;
     margin: 0;
+    padding: 0;
     background: linear-gradient(to right, #f40559a9, #dba945);
 }
 
-header{
-    background-color: rgba(165, 42, 42, 0.675);
+.home-content{
+    display: flex;
+    flex-direction: row;
 }
 
 .certified{
@@ -23,10 +25,13 @@ header{
     text-align: center;
 }
 ul{
-    float: right;
+    /* float: right; */
     display: flex;
-    list-style: none;
-    
+    list-style: none; 
+}
+
+li:hover{
+    text-decoration: underline;
 }
 
 .Contact{
@@ -35,65 +40,78 @@ ul{
 .home-content{
     display: flex;
     flex-direction: row;
-    width: 90%;
     font-size: 30px;
 } 
 .Car-content{
     padding-left: 1rem;
     width: 50%;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
-.certified{
-    padding-left: 3rem;
+
+.hero-image{
     width: 50%;
+    margin-top: 3rem;
+    margin-right: 3rem;
 }
-.Car{
-    color: whitesmoke;
-    
+
+.hero-image>img{
+    width: 94%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
 }
+
 h3{
     color: orange;
 }
-.HANSFAHD{
-    color: white;
-}
+
 p{
     color: aliceblue;
 }
-.certified{
-    color: wheat;
-}
 
-
-.card-content{
-    border: 2px solid gray;
-    box-shadow: 2rem;
-    width: 20%;
-    background-color: white;
-    display: grid;
-    
-}
 a{
     text-decoration: none;
 }
+
 .Car-logo{
 display: flex;
 flex-direction: row;
 }
 
-.Options{
-    color: tomato;
-    padding-left: 20rem;
-}
-
-
-
 .logo-img{
-    /* background-color: rgba(0, 0, 0, 0.541); */
-    padding-left: 8rem;
+    padding: 3rem;
 }
 
 .logo-img img{
     width: 100px;
 }
 
+.Car-logo{
+    display: inline-flex;
+}
+
+/* Media Query */
+@media (max-width:768px) {
+    .home-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Car-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-img{
+        padding: 1rem;
+    }
+
+    .hero-image>img{
+        display: none;
+    }
+
+    
+}

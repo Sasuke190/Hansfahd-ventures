@@ -6,7 +6,7 @@
     
     /* margin-left: 7rem; */
     /* margin-left: 2rem; */
-    margin-top: 7rem;
+     margin-top: 6em; 
 }
 .Lexus-brand{
     margin: 1rem;
@@ -15,7 +15,7 @@
     padding-top: 1rem;
 }
 .Lexus-brand:hover{
-    background-color: thistle;
+    background-color: paleturquoise;
     cursor: pointer;
 }
 .Lexus-brand>img, .Lexus-brand>h1{
@@ -34,6 +34,32 @@ button{
 a{
     text-decoration: none;
 }
+
+@media (max-width:1020px){
+    .Lexus{
+    
+        display:grid ;
+        grid-template-rows: auto auto auto auto ;
+        row-gap: 3px;
+       
+        
+    }
+}
+a{
+    text-decoration: none;
+}
+@media  (max-width:768px){
+
+    .Ford{
+        display: block;
+    }
+
+    
+    
+}
+
+    
+    
 
  
 
