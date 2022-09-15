@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .Home{
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #f40559a9, #dba945);
+    background: linear-gradient(to right, #9b0606a9, #c48403);
 }
 
 .home-content{
@@ -20,18 +26,9 @@
     margin-top:3rem ;
 }
     
-.Pick{
-    color: black;
-    text-align: center;
-}
 ul{
-    /* float: right; */
     display: flex;
     list-style: none; 
-}
-
-li:hover{
-    text-decoration: underline;
 }
 
 .Contact{
@@ -40,7 +37,7 @@ li:hover{
 .home-content{
     display: flex;
     flex-direction: row;
-    font-size: 30px;
+    /* font-size: 30px; */
 } 
 .Car-content{
     padding-left: 1rem;
@@ -62,6 +59,12 @@ li:hover{
     border-bottom-left-radius: 20%;
 }
 
+.logo-img:hover{
+    background-color: #54432151;
+    opacity: .6;
+    border: 2px dotted whitesmoke;
+}
+
 h3{
     color: orange;
 }
@@ -74,17 +77,22 @@ a{
     text-decoration: none;
 }
 
+.btn-start{
+    width: 50%;
+    margin-top: 2rem;
+}
+
 .Car-logo{
 display: flex;
 flex-direction: row;
 }
 
 .logo-img{
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .logo-img img{
-    width: 100px;
+    width: 80px;
 }
 
 .Car-logo{
@@ -92,15 +100,26 @@ flex-direction: row;
 }
 
 /* Media Query */
-@media (max-width:768px) {
+@media (max-width:678px) {
     .home-content{
         display: flex;
         flex-direction: column;
     }
 
+    .Car-content{
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .hero-image{
+        width: 100%;
+        margin-left: 1rem;
+    }
+
     .Car-logo{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
@@ -109,9 +128,17 @@ flex-direction: row;
         padding: 1rem;
     }
 
+
     .hero-image>img{
-        display: none;
+        width: 90%;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
     }
 
-    
+    .btn-start{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
