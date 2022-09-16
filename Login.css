@@ -7,6 +7,7 @@
     position: absolute;
 }
 
+
 .form-box{
     width: 406px;
     height: 500px;
@@ -58,6 +59,7 @@
     position: absolute;
     width: 280px;
     transition: .5s;
+    margin-left: 3rem;
 }
 .input-field{
     width: 100%;
@@ -72,6 +74,11 @@
 }
 a{
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.394);
+}
+
+span{
+    margin-left: 3px;
 }
 .submit-btn{
     width: 100%;
@@ -80,11 +87,12 @@ a{
     cursor: pointer;
     display: block;
     margin: auto;
+    color: rgba(0, 0, 0, 0.394);
     background: linear-gradient(to right, #ff105f, #ffad06);
     border: 0;
     outline: none;
-    /* border-radius:  20vh; */
 }
+
 .chech-box{
     margin-left: 2rem;
    
@@ -92,7 +100,24 @@ a{
 span{
     color: #777;
     font-size: 12px;
+}
 
+@media (max-width:678px) {
+    .form-box{
+        width: 260px;
+    }
+    
+    .submit-btn{
+        width: 60%;
+    }
+
+    .input-field{
+        width: 90%;
+    }
+
+    .input-group{
+        margin-left: 0;
+    }
 }
 
 

@@ -36,24 +36,14 @@ a{
 }
 
 @media (max-width:1020px){
-    .Lexus{
+   .Lexus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+   }
     
-        display:grid ;
-        grid-template-rows: auto auto auto auto ;
-        row-gap: 3px;
-       
-        
-    }
-}
-a{
-    text-decoration: none;
-}
-@media  (max-width:768px){
-
-    .Ford{
-        display: block;
-    }
-
     
     
 }
