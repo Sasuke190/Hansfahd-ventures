@@ -45,13 +45,17 @@ ul{
     margin-left: 3rem;
 }
 
-.hero-image{
+.Carousel-div{
     width: 50%;
     margin-top: 3rem;
     margin-right: 3rem;
 }
 
-.hero-image>img{
+.carousel-img>img{
+    display: none;
+}
+
+/* .hero-image>img{
     width: 94%;
     border:2px solid #eee;
     filter: drop-shadow(4px 6px 8px);
@@ -59,7 +63,7 @@ ul{
     border-top-right-radius: 30%;
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
-}
+} */
 
 .logo-img:hover{
     background-color: #54432151;

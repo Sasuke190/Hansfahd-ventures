@@ -3,7 +3,7 @@
     display:grid ;
     grid-template-columns: auto auto auto auto ;
     row-gap: 3px;
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     
     /* margin-left: 7rem; */
     /* margin-left: 2rem; */
@@ -16,7 +16,7 @@
     padding-top: 1rem;
 }
 .Others-brand:hover{
-    background-color: paleturquoise;
+    background-color: #eee;
     cursor: pointer;
 }
 .Others-brand>img, .Others-brand>h1{
@@ -26,6 +26,28 @@
 
 button{
     margin-bottom: 1rem;
+}
+.Others-brand {
+    text-decoration: none;
+    width: 270px;
+    height: 320px; 
+   
+    border: 7px solid goldenrod;
+     margin : 1rem; 
+    
+}
+  
+.Others-brand img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    transition: 0.5s all ease-in-out;
+    /* margin-top: 1rem; */
+    margin-right: 1rem;
+}
+  
+.Others-brand:hover img {
+    transform: scale(1.1);
 }
 
 .Others-brand {

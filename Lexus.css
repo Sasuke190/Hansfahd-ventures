@@ -14,10 +14,7 @@
     background-color: white;
     padding-top: 1rem;
 }
-.Lexus-brand:hover{
-    background-color: paleturquoise;
-    cursor: pointer;
-}
+
 .Lexus-brand>img, .Lexus-brand>h1{
     width: 210px;
     padding: 5px;
@@ -25,6 +22,28 @@
 
 button{
     margin-bottom: 1rem;
+}
+.Lexus-brand {
+    text-decoration: none;
+    width: 270px;
+    height: 290px; 
+   
+    border: 7px solid goldenrod;
+     margin : 1rem; 
+    
+}
+  
+.Lexus-brand img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    transition: 0.5s all ease-in-out;
+    /* margin-top: 1rem; */
+    margin-right: 1rem;
+}
+  
+.Lexus-brand:hover img {
+    transform: scale(1.1);
 }
 .Lexus-brand {
     border: 5px solid goldenrod;

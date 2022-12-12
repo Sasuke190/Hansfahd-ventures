@@ -1,38 +1,65 @@
 .Toyota{
-    
     display:grid ;
     grid-template-columns: auto auto auto auto ;
-    row-gap: 3px;
+    row-gap: 1px;
     /* margin-left: 7rem; */
     /* margin-left: 2rem; */
-     margin-top: 8rem; 
+     margin-top:rem; 
 }
-.Camry-brand{
+ /* .Camry-brand{
+    text-decoration: none;
     margin: 1rem;
     width: 210px;
     background-color: white;
     padding-top: 1rem;
-}
-.Camry-brand:hover{
-    background-color: paleturquoise;
+}  */
+ .Camry-brand:hover{
+    background-color: #eee;
     cursor: pointer;
-}
-.Camry-brand>img, .Camry-brand>h1{
-    width: 210px;
-    padding: 5px;
+} 
+.Camry-brand>h1{
+    width: 100px;
+    /* padding: 5px; */
+    
 }
 a{
     text-decoration: none;
 }
-
-button{
-    margin-bottom: 1rem;
+.H5{
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
+.Price{
+    margin: 1rem;
+    margin-left: 1rem;
+}
+.Button{
+    margin-left: 1rem;
+}
+    .Camry-brand {
+        text-decoration: none;
+        width: 270px;
+        height: 370px; 
+       
+        border: 7px solid goldenrod;
+        margin : 1rem;
+        
+    }
+      
+    .Camry-brand img {
+        display: block;
+        margin: auto;
+        width: 90%;
+        transition: 0.5s all ease-in-out;
+        margin-top: 1rem;
+    }
+      
+    .Camry-brand:hover img {
+        transform: scale(1.1);
+    }
+
 .Camry-brand {
-    border: 7px solid goldenrod;
-    width: 251px;
-    padding-bottom: 1rem;
-    padding-left: 1rem ;
+    
 }
 
 /* media query */

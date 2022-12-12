@@ -14,13 +14,36 @@
     padding-top: 1rem;
 }
 .Ford-brand:hover{
-    background-color: paleturquoise;
+    background-color: #eee;
     cursor: pointer;
-}
+} 
 .Ford-brand>img, .Ford-brand>h1{
     width: 210px;
     padding: 5px;
 }
+.Ford-brand {
+    text-decoration: none;
+    width: 270px;
+    height: 290px; 
+   
+    border: 7px solid goldenrod;
+     margin : 1rem; 
+    
+}
+  
+.Ford-brand img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    transition: 0.5s all ease-in-out;
+    /* margin-top: 1rem; */
+    margin-right: 1rem;
+}
+  
+.Ford-brand:hover img {
+    transform: scale(1.1);
+}
+
 
 button{
     margin-bottom: 1rem;
