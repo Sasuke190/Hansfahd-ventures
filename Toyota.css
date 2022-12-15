@@ -2,24 +2,15 @@
     display:grid ;
     grid-template-columns: auto auto auto auto ;
     row-gap: 1px;
-    /* margin-left: 7rem; */
-    /* margin-left: 2rem; */
-     margin-top:rem; 
 }
- /* .Camry-brand{
-    text-decoration: none;
-    margin: 1rem;
-    width: 210px;
-    background-color: white;
-    padding-top: 1rem;
-}  */
+
  .Camry-brand:hover{
     background-color: #eee;
     cursor: pointer;
 } 
 .Camry-brand>h1{
     width: 100px;
-    /* padding: 5px; */
+    
     
 }
 a{
