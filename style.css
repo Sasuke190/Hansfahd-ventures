@@ -96,6 +96,14 @@ flex-direction: row;
     display: inline-flex;
 }
 
+.service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .card{
     width: 18rem;
     height: 16rem;
@@ -117,7 +125,20 @@ flex-direction: row;
     font-weight: 300;
 }
 
+.accordion{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
 
+.testimony{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 
 /* Media Query */
 @media (max-width:678px) {
@@ -169,6 +190,29 @@ flex-direction: row;
     margin: auto;
     margin-top: 3rem;
     margin-right: 3rem;
+}
+
+.accordion{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.testimony{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
     
