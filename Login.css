@@ -1,124 +1,27 @@
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
 
-.hero{
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to right, #f40559a9, #dba945);
-    background-size: cover;
-    position: absolute;
-}
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 
-
-.form-box{
-    width: 406px;
-    height: 500px;
-    position: relative;
-    margin: 6% auto;
-    background: #fff;
-    padding: 5px;
-}
-.button-box{
-    width: 220px;
-    margin: 35px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
-    border-radius: 30px;
-}
-.toggle-btn{
-    padding: 10px 28px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    position: relative;
-    
-}
-#btn{
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    width: 110px;
-    height: 100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
-    border-radius: 30px;
-    transition: .5s;
-    
-}
-.social-icons{
-    margin: 30px auto;
-    text-align: center;
-}
-.social-icons img{
-    width: 30px;
-    margin: 0 12px;
-    box-shadow: 0 0 20px 0 #7f7f7f3d;
-    cursor: pointer;
-    border-radius: 50%;
-}
-.input-group{
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: .5s;
-    margin-left: 3rem;
-}
-.input-field{
-    width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    border-left: 0;
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid #999;
-    outline: none;
-    background: transparent;
-}
-a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.394);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 }
 
-span{
-    margin-left: 3px;
+@media (min-width: 768px) {
+.gradient-form {
+height: 120vh !important; 
 }
-.submit-btn{
-    width: 100%;
-    height: 6vh;
-    padding: 10px 40px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    color: rgba(0, 0, 0, 0.394);
-    background: linear-gradient(to right, #ff105f, #ffad06);
-    border: 0;
-    outline: none;
+}
+@media (min-width: 769px) {
+.main-card {
+border-top-left-radius: 1rem;
+border-bottom-right-radius: 1rem;
+}
 }
 
-.chech-box{
-    margin-left: 2rem;
-   
-    }
-span{
-    color: #777;
-    font-size: 12px;
-}
 
-@media (max-width:678px) {
-    .form-box{
-        width: 260px;
-    }
-    
-    .submit-btn{
-        width: 60%;
-    }
-
-    .input-field{
-        width: 90%;
-    }
-
-    .input-group{
-        margin-left: 0;
-    }
-}
 
 
 
